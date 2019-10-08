@@ -1,0 +1,847 @@
+body{
+  background-color: rgba(255, 253, 253, 0.753);
+}
+.myNav{
+  position: relative;
+  height: 700px;
+  width:100%;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  padding:0px;
+}
+@font-face{
+  font-family: "Bai Jamjuree";
+  src:url('https://fonts.googleapis.com/css?family=BaiJamjuree');
+}
+
+#dis1{
+  background-image: url("../Images/Rock-Tama waters  1.jpg");
+}
+#dis2{
+  background-image: url("../Images/Rock-Tama waters  2.jpg");
+}
+
+#dis3{
+  background-image: url("../Images/Rock-Tama waters  3.jpg");
+}
+#dis4{
+  background-image: url("../Images/Rock-Tama waters  4.jpg");
+}
+#dis5{
+  background-image: url("../Images/Rock-Tama waters  5.jpg");
+}
+#dis6{
+  background-image: url("../Images/Rock-Tama waters  6.jpg");
+}
+#dis7{
+  background-image: url("../Images/Rock-Tama waters  7.jpg");
+}
+#dis8{
+  background-image: url("../Images/Rock-Tama waters  8.jpg");
+}
+#dis9{
+  background-image: url("../Images/Rock-Tama waters  9.jpg");
+}
+#dis10{
+  background-image: url("../Images/Logo.jpg");
+}
+#dis11{
+  background-image: url("../Images/Rock-Tama waters  10.jpg");
+}
+#dis12{
+  background-image: url("../Images/GB 10.jpg");
+}
+#sliderArea{
+  position: relative;
+}
+
+#sliderArea .owl-item div{
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.navbar{
+  background-Image: url("../Images/Rock-Tama waters  7.jpg");
+  margin: auto;
+  border-radius: 0 0 10% 10%;
+}
+
+.navbar .navbar-brand{
+  color: rgb(230, 224, 224);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar .navbar-nav{
+  margin: 0 auto;
+}
+.navbar .nav-item a{
+  color: white !important;
+}
+.nav-item{
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-style: oblique;
+  margin-right: 25px;
+  visibility: visible !important;
+}
+
+.navbar .active{
+  background-color:rgb(3, 3, 14);
+  color:grey !important;
+  border-radius: 50px;
+}
+
+.inner{
+	background-color:rgba(0,0,53,0.7);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+  height:100%;
+  padding: 0px !important;
+  z-index: 955;
+}
+.toCenterText1{
+  margin:auto ; 
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right : 20px;
+  padding-top : 20px;
+  padding-bottom:  50px;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+}
+.toCenterText2{
+  margin:auto ;
+  margin-top: 20px;
+  margin-bottom: 10vh;
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right : 20px;
+  padding-top : 20px;
+  padding-bottom:  30px;
+  font-size: 18px;
+  font-family: 'B612 Mono', monospace;
+}
+#search{
+  width: 150px;
+  border-radius: 50px 50px 50px 50px;
+}
+.navbar-toggler{
+  border-color: white !important;
+  border-radius: 50px 50px 50px 50px;
+}
+nav a:hover{
+  background:rgb(3, 3, 14);
+  color: rgb(100, 100, 139) !important;
+  border-radius: 50px 50px 50px 50px;
+}
+.navbar .nav-item:hover{
+  background:rgb(3, 3, 14);
+  color: rgb(100, 100, 139) !important;
+  border-radius: 50px 50px 50px 50px;
+}
+#learnMore{
+  background-color:  rgba(0, 4, 255, 0.603);;
+  color: white;
+  border-radius: 50px 50px 50px;
+  width: auto;
+  margin-left: 100px;
+  border: 3px solid rgba(0, 4, 255, 0.603);
+}
+#learnMore a{
+  text-decoration: none;
+  color: white;
+  font-stretch: expanded;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  word-spacing: 5px;
+  font-size: 20px;
+}
+#learnMore:hover{
+  background:rgb(3, 3, 14);
+  color: grey;
+  border: 3px solid rgb(3, 3, 14);;
+}
+.rounded-Image{
+  border-radius: 50px !important;
+}
+.allow .card{
+  background-color: rgb(9, 9, 134);
+  color: rgba(255, 255, 255, 0.822);
+  border-radius: 30px;
+  border:4px solid white;
+}
+.allow{
+  font-family: "Bai Jamjuree";
+}
+.quoter{
+  text-align: right;
+  font-style: italic;
+}
+.homeServices{
+  text-align: center;
+  padding-left: 20px;
+  background-color: rgba(235, 235, 235, 0.815);
+}
+.services-Text{
+  padding-left: 50px;
+  color: blue;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.services-Text blockquote{
+  margin-left: 13px;
+}
+.card-title-Home{
+  font-family: 'Saria Semi Condensed', sans-serif;
+  letter-spacing:  3px;
+  font-weight: lighter;
+
+}
+
+.allow img{
+  height: 200px;
+}
+.services-Text span{
+  width: 100%;
+  background: blue;
+  display: block;
+  height: 2px;
+  margin-top:10px;
+}
+
+.serveButton{
+  border-radius:0 100px 0 100px;
+  float:right;
+  font-style: oblique;
+  font-family:  "Bai Jamjuree";
+  background: white !important;
+  color: blue;
+  text-decoration: none;
+}
+.serveButton a{
+  text-decoration: none;
+  color:  blue;
+}
+
+.serveButton:hover{
+  border-radius:0 100px 0 100px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(3, 3, 14, 0.8) !important;
+  border: 1.5px solid white !important;
+  color: white;
+}
+.serveButton a:hover{
+  color: white !important;
+}
+
+.card-title-Home{
+  text-align: center;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 2px;
+  border:2px solid white;
+  border-radius: 25px;
+}
+.footer1{
+  background-color: rgb(105, 105, 105);
+  color:rgb(3, 3, 14);
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer1 a{
+  text-decoration: none;
+  background-color: inherit;
+  color:inherit;
+}
+
+li{
+  list-style-type: none;
+  margin-top:  5px;
+}
+.footer1 li{
+  margin-top: 7px;
+  border-radius: 80px;
+}
+.footer1 dd{
+  margin-top: 7px;
+}
+
+.footer1:hover{
+  background:rgb(3, 3, 14);
+  color: grey;
+}
+.footer1 h4{
+  padding: 4px;
+}
+.footer1 hr{
+  width: 50%;
+  position: relative;
+  border:none;
+  border-bottom: 1px solid rgb(3, 3, 14);
+  overflow: visible;
+}
+.footer1 hr:before{
+  position:absolute;
+  width: 50%;
+  left: 0;
+  content:'';
+  height:3px;
+  background:grey;
+  top:-1px;
+}
+
+
+.socials{
+  margin-bottom: 20px;
+}
+.socials a{
+    color : rgb(3, 3, 14);
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+.socials a:hover{
+  background:rgb(3, 3, 14);
+  color: grey;
+}
+.termsAndCon p{
+  text-align: center;
+  font-size: 12px;
+}
+/* Styling the owl carousel */
+.testWrapper{
+  width:100%;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+.section-padding{
+  padding: 60px 0;
+}
+.img-area{
+  width: 100px;
+  height: 100px;
+  display:block;
+  overflow:hidden;
+  border-radius: 50px 50px 50px 50px;
+  margin: 0 auto;
+}
+.img-area img{
+  width: 100%;
+}
+.singleTesti{
+  background: white;
+  padding:10%;
+  font-family:  "Bai Jamjuree";
+  font-weight: lighter;
+  text-align: center;
+  border-radius: 100px 0 100px 0;
+}
+.image-text{
+  font-weight: lighter;
+  font-family:  "Bai Jamjuree";
+}
+.image-text h2{
+  text-transform:  uppercase;
+  margin: 20px 0;
+  color: #ff5257;
+  font-style: oblique;
+  font-size: 25px;
+}
+.image-text h3{
+  font-size: 19px;
+}
+.image-text i{
+  color: #ff5257;
+}
+hr{
+  color:#ff5257 !important;
+}
+/* Comments for the Media Page In the website */
+
+.clientsArea{
+  margin-top:80px;
+}
+.row.client-Text{
+  margin-bottom: 4px;
+}
+.clientsArea hr{
+  width: 50%;
+  position: relative;
+  border:none;
+  border-bottom: 1px solid rgb(125, 0, 128);
+  overflow: visible;
+}
+.clientsArea hr:before{
+  position:absolute;
+  width: 50%;
+  left: 0;
+  content:'';
+  height:3px;
+  background:grey;
+  top:-1px;
+}
+.client-Text{
+  background-color: white;
+  text-align: center;
+  color: rgb(125, 0, 128);
+  font-weight: lighter;
+  border-radius: 50px;
+  margin-top : 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-style: italic;
+  width: 320px;
+  padding-left: 5px;
+  font-family:  "Bai Jamjuree";
+  letter-spacing: 1px;
+  border: 2px solid rgb(125, 0, 128);
+}
+.client-Text p{
+  margin-left: 40px;
+}
+.card-title-client{
+  font-family:  "Bai Jamjuree";
+  letter-spacing:  3px;
+  font-size: 15px;
+  text-align:center;
+  text-transform: uppercase;
+  color: blue;
+  font-style: oblique;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 15px;
+  font-family:  "Bai Jamjuree";
+}
+.client-Card{
+  background-color: beige;
+  color:rgba(98, 98, 98, 0.8);
+  margin-top: 15px;
+  border-radius: 30px;
+}
+.client-Card a{
+  text-decoration: none;
+}
+.client-Card a:hover{
+  color: white;
+  text-decoration: none;
+}
+.client-Card img{
+  width: 270px;
+  height:250px;
+}
+.downloadButton{
+  float: right;
+}
+
+.compAlbum{
+  margin-top: 20px;
+}
+.compAlbum img{
+height: 100%;
+width:100%;
+border-radius: 20px;
+margin-top: 10px;
+}
+/* This is the design of the Product page */
+.servicePage{
+  margin-top: 90px;
+}
+
+#daProducts{
+  margin-top: 45px;
+}
+.initialize{
+  background: rgba(12, 33, 63,0.8) !important;
+  color: grey;
+  border-radius:30px;
+  padding: 10px;
+  font-family: monospace;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.DeTesti{
+  text-align: center;
+  margin-top: 10px;
+  padding: 4px;
+  background-image: linear-gradient(to bottom right, grey, rgba(12, 33, 63,0.8));
+  border-radius: 0 30px 0 30px;
+  color:rgb(215, 215, 215);
+}
+.DeTesti h4{
+  text-transform: uppercase;
+  border-radius: 20px 0 20px 0;
+  border:10px solid grey;
+  font-variant: small-caps;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+.theInnerMost{
+  position: relative;
+  height: 470px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: 3px solid rgb( 112, 146, 190);
+  text-align: center;
+}
+.outter{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 126,0.6);
+  color: blanchedalmond;
+  border-radius: 10px;
+}
+#serve1{
+  background-image: url("../Images/Rock-Tama waters  1.jpg");
+}
+#serve2{
+  background-image: url("../Images/Rock-Tama waters  2.jpg");
+}
+#serve3{
+  background-image: url("../Images/Rock-Tama waters  3.jpg");
+}
+#serve4{
+  background-image: url("../Images/Rock-Tama waters  4.jpg");
+}
+#serve5{
+  background-image: url("../Images/Rock-Tama waters  5.jpg");
+}
+
+.outter blockquote{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  background: blanchedalmond;
+  color:blue;
+  border-radius: 40px;
+}
+.outter p{
+  font-family: monospace;
+  padding: 10px;
+  padding-top: 3vw;
+  font-size: 15px;
+}
+/* Styling the Go to top icon */
+#scrolla{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 50px;
+  width: 50px;
+  background-color:green;
+  border-radius: 60px;
+  -webkit-border-radiusc: 60px;
+  -moz-border-radius:60px;
+  z-index: 1000;
+}
+#scrolla span{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+}
+#scrolla:hover{
+  background-color:cyan;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)"; 
+}
+
+/* Styling the about us page */
+.spaceMe{
+  margin: 100px auto;
+  padding: 0px auto;
+}
+.spaceMe p{
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 3px;
+font-kerning: auto;
+font-size: 20px;
+text-align: center;
+}
+.spaceMe hr{
+  width: 100%;
+  position: relative;
+  border:none;
+  border-bottom: 1px solid #aaa;
+  overflow: visible;
+}
+.spaceMe hr:before{
+  position:absolute;
+  width: 50%;
+  left: 0;
+  content:'';
+  height:3px;
+  background:blue;
+  top:-1px;
+}
+.expla img{
+  height: 300px;
+  width:100%;
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+.kupu{
+  border-radius: 30px 0 30px 0;
+}
+.ourBele{
+  background-color: black;
+  color:rgb(220, 220, 220);
+  margin-top: 30px;
+}
+.ourBele blockquote{
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.ourBele hr{
+  width: 30%;
+  position: relative;
+  border:none;
+  border-bottom: 1px solid #aaa;
+  overflow: visible;
+  margin-bottom: 10px;
+}
+.ourBele hr:before{
+  position:absolute;
+  width: 50%;
+  left: 0;
+  content:'';
+  height:2px;
+  background:blue;
+  top:-1px;
+}
+.ourBele p{
+ font-size: 13px; 
+ font-weight: lighter;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 2px;
+ word-spacing: 3px;
+}
+.CEO{
+  background-color:white;
+ margin-top: 10px;
+}
+.CEO blockquote{
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 4px;
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: 20px 0 0 20px;;
+  color: blue;
+}
+
+.CEO hr{
+  width: 50%;
+  position: relative;
+  border:none;
+  border-bottom: 1px solid rgb(3, 3, 14);
+  overflow: visible;
+}
+.CEO hr:before{
+  position:absolute;
+  width: 50%;
+  left: 0;
+  content:'';
+  height:3px;
+  background:grey;
+  top:-1px;
+}
+.CEO p{
+  text-align: center;
+}
+.CEO img{
+  margin: 0px auto;
+  border-radius: 30px;
+}
+#followCEO{
+  border: 1px outset blue;
+  border-radius: 40px 40px 0 0;
+  margin-bottom: 0px;
+  margin-top: 4px;
+  color: blue;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+#CEO-socials{
+  letter-spacing: 20px;
+  margin-top: 0px;
+  background:blue;
+  border-radius: 0 0 40px 40px;
+  padding: 0px;
+}
+.teamVictech{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 35px;
+  background-color:white;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  color: grey;
+}
+
+/* Design for the contact us page */
+
+.Contact blockquote{
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 70px;
+  color: beige;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 25px;
+  background-image:  linear-gradient(to bottom right, grey, rgb(3, 3, 14));
+  border:1px solid grey;
+  border-radius: 40px 0 40px 0;
+  letter-spacing: 3px;
+  font-style: oblique;
+}
+
+
+.connections a{
+  color:inherit;
+}
+.connections img{
+  margin: auto;
+  border-radius: 30px 0 30px;
+}
+.deDetails{
+  border-radius: 25px 25px 5px 25px;
+}
+.deDetails #daSocail{
+  letter-spacing: 20px;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+/* Styling the form */
+.inna4Form{
+  width: 100%;
+  height: 100%;
+  margin: 4px 0;
+  position: relative;
+  border-radius: 20px;
+  background-image: url("../Images/Rock-Tama waters  7.jpg");
+}
+
+.OuttaForForm{
+  background: rgba(0,0,53,0.7);
+  color: white;
+  margin: 0;
+  top:0;
+	left:0;
+	width:100%;
+  height:100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+form small{
+  text-align: center;
+}
+form input{
+  background-color: transparent !important;
+  color:rgb(215, 215, 215) !important;
+  border-radius: 30px !important;
+}
+
+form textarea{
+  background-color: transparent !important;
+  color: rgb(215, 215, 215) !important;
+  border-radius: 30px !important;
+}
+.inna4Form button{
+  float: right !important;
+}
+#subForming{
+  float: right !important;
+}
+
+.hide{
+  display: none;
+}
+#contactForm .alert-danger{
+  border: 1px solid red;
+  color: red;
+  background: transparent;
+  padding: 1px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/* The order page */
+.Order blockquote{
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 70px;
+  color: beige;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0 25px;
+  background-image:  linear-gradient(to bottom right, grey, rgb(3, 3, 14));
+  border:1px solid grey;
+  border-radius: 40px 0 40px 0;
+  letter-spacing: 3px;
+  font-style: oblique;
+}
+
+.OrderPar{
+ margin-left: 10px;
+ margin-right: 10px;
+ text-align: center;
+}
+
+.DaDetail{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#DaButtomNav{
+  background: rgb(48, 48, 48) !important;
+  color: #aaa !important;
+}
+#DaButtomNav a{
+  color: #aaa !important;
+}

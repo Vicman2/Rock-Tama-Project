@@ -1,0 +1,30 @@
+//This is the mysql for the order table
+
+CREATE TABLE orders (
+    id				INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    clientName		VARCHAR(50) BINARY NOT NULL,
+    mobile			CHAR(11) NOT NULL,
+    emailAddress	VARCHAR(90) NOT NULL,
+    compAddress		TEXT NOT NULL,
+    sachetQuantity  BIGINT NOT NULL,
+    bottledShrink	BIGINT NOT NULL,
+    BottledCarton	BIGINT NOT NULL,
+    orderDate		TIMESTAMP  NOT NULL, 
+    messages        TEXT NOT NULL,
+    PRIMARY KEY (id) 
+);
+
+
+
+// This is the contact mysql table
+
+
+CREATE TABLE orders (
+    id				INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    clientName		VARCHAR(50) BINARY NOT NULL,
+    mobile			CHAR(11) NOT NULL,
+    emailAddress	VARCHAR(90) NOT NULL,
+    contactDate		TIMESTAMP  NOT NULL, 
+    messages        TEXT NOT NULL,
+    PRIMARY KEY (id) 
+);
